@@ -31,7 +31,7 @@ nav, p, section, article{
     margin: 16px;
     padding: 8px;
 }
-.socialmedia a{
+.socialmedia a {
     text-decoration: none;
 }
 .hero {
@@ -55,11 +55,4 @@ nav, p, section, article{
 .hero article img{
     float: right;
     width: 125px;
-}
-.box {
-    margin: 1rem;
-    border: 1px solid rgba(0,0,0,.1);
-    padding: 1rem;
-    background-color: #eee;
-    color: #000;
 }
