@@ -52,18 +52,14 @@ nav, p, section, article{
     background-color: var(--accent1-color);
     color: #fff; /* white text - make sure there is enough contrast with the background-color */
 }
-.hero article{
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    right: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-     padding: 16px;
-}
 .hero article img{
     float: right;
     width: 125px;
-    margin-left: 16px;
-    border: 2px solid var(--accent2-color);
+}
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
 }
