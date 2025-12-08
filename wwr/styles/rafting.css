@@ -86,15 +86,15 @@ nav a {
     object-fit: cover;
 }
 .hero h1{
-    position: absolute;
+    position: relative;
     top: 50%;
-    left: 100%;
+    left: 50%;
     transform: translate(-50%, -50%);
     font-size: 36px;
     padding: 16px;
-    text-align: center;
+    text-align: auto;
     background-color: var(--accent1-color);
-    color: #fff;  
+    color: #fff;margin-left: auto;  
 }
 .hero article img{
     float: right;
@@ -102,6 +102,19 @@ nav a {
     margin-left: 16px;
     border: 2px solid var(--accent2-color);
 }
+.call-to-action{
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+}
+.call-to-action a {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: top;
+}
+
 .company-info {
     padding: 10px;
 }
